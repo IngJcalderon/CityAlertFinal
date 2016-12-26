@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="txttitulo">16dp</dimen>
+    <dimen name="corner_radious_cardview">4dp</dimen>
+    <dimen name="foto">30dp</dimen>
+    <dimen name="txtalerta">15dp</dimen>
+    <dimen name="carviewltop">0dp</dimen>
+</resources>

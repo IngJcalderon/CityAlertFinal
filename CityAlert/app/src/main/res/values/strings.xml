@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CityAlert</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnLogin">Login</string>
+    <string name="etUserName">Usuario</string>
+    <string name="etCorreo">Email</string>
+    <string name="etPassword">Password</string>
+    <string name="etNombres">Nombres</string>
+    <string name="etRepetirPassword">Repetir Password</string>
+    <string name="etNombreCuenta">Escribe tu usuario</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="mMapa">Mapa</string>
+    <string name="mTipoAlerta">Tipo de Alertas</string>
+
+    <string name="prompt_mensaje">Ingrese su mensaje</string>
+    <string name="prompt_password2">Password</string>
+    <string name="action_publicar">Publicar</string>
+
+    <string name="pick_date">Pick Date</string>
+    <string name="init_text">Neurobin Date Picker Example</string>
+</resources>
