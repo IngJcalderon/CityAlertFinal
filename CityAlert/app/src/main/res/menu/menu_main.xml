@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="mx.unam.mascotamenus.MainActivity">
 
+
     <item android:id="@+id/mMapa"
         android:title="@string/mMapa"
         android:orderInCategory="100">
@@ -10,5 +11,13 @@
     <item android:id="@+id/mTipoAlerta"
         android:title="@string/mTipoAlerta"
         android:orderInCategory="101">
+    </item>
+
+    <item
+        android:id="@+id/miCompose"
+        android:icon="@drawable/ic_reorder_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Compose"
+        android:orderInCategory="103">
     </item>
 </menu>

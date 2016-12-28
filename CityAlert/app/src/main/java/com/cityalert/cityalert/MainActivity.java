@@ -1,26 +1,37 @@
 package com.cityalert.cityalert;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button btnRegistrarse;
-    private Button btnLogin;
+    Toolbar toolbar;
+    MenuApp menuApp= new MenuApp();
+    private TextView btnRegistrarse;
+    private TextView btnLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
+        ActionBar actionBar = getActionBar();
+//Seteando el icono
+        actionBar.setIcon(R.drawable.alert1);
+        */
         //Initializing the views
-        btnRegistrarse = (Button) findViewById(R.id.btnRegistrarse);
-        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnRegistrarse = (TextView) findViewById(R.id.btnRegistrarse);
+        btnLogin = (TextView) findViewById(R.id.btnLogin);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setNavigationIcon(R.drawable.ic_reorder_black_24dp);
+        setSupportActionBar(toolbar);
 
         btnRegistrarse.setOnClickListener(new View.OnClickListener()
         {
@@ -51,14 +62,19 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        //menuApp.onCreateOptionsMenuApp(menu);
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+
         int id = item.getItemId();
         Intent intent;
         switch (id){
@@ -71,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
         }
+
         return super.onOptionsItemSelected(item);
 
     }
-
 
 }

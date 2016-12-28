@@ -51,7 +51,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:hint="@string/etUserName" />
+                    android:hint="@string/etUserName"
+                    android:textSize="@dimen/textos"
+                   />
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
@@ -73,7 +75,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:singleLine="false"
-                    android:hint="@string/etPassword" />
+                    android:hint="@string/etPassword"
+                    android:textSize="@dimen/textos"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
@@ -94,7 +97,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:singleLine="false"
-                    android:hint="@string/etRepetirPassword" />
+                    android:hint="@string/etRepetirPassword"
+                    android:textSize="@dimen/textos" />
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
@@ -116,7 +120,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
-                    android:hint="@string/etCorreo" />
+                    android:hint="@string/etCorreo"
+                    android:textSize="@dimen/textos"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
@@ -143,7 +148,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:singleLine="false"
-                    android:hint="@string/etNombres" />
+                    android:hint="@string/etNombres"
+                    android:textSize="@dimen/textos"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 

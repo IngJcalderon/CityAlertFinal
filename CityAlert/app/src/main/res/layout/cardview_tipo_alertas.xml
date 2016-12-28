@@ -21,8 +21,8 @@
         <ImageView
             android:id="@+id/ivMascota"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/bolas_coloridas__3_"
+            android:layout_height="120dp"
+            android:src="@drawable/incendio"
             />
 
         <RelativeLayout
